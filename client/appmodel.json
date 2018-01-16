@@ -4,7 +4,10 @@
     "comment": "ILO Dashboard",
     "properties": {
       "totalTarget": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "totalAct": {
         "type": "string"
