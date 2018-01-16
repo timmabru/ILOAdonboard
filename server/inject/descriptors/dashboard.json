@@ -17,6 +17,12 @@
       "selector": "#spanShiftStatus span",
       "control": "property.innerText",
       "selectIndex": 1
+    },
+    "AvrSpeed": {
+      "type": "string",
+      "selector": "#spanShiftStatus span",
+      "control": "property.innerText",
+      "selectIndex": 2
     }
   },
   "connect": []
