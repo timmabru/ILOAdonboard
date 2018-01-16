@@ -3,7 +3,7 @@
   "properties": {
     "isDashboard": {
       "type": "identifier",
-      "selector": "#spanShiftStatus span",
+      "selector": "#spanShiftStatus",
       "control": "property.innerText",
       "selectContains": "Total target"
     },
