@@ -20,6 +20,12 @@
         "update": {
           "type": "none"
         }
+      },
+      "targetHour": {
+        "type": "string"
+      },
+      "quantityHour": {
+        "type": "string"
       }
     }
   }
