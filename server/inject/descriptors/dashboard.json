@@ -7,25 +7,10 @@
       "control": "property.innerText",
       "selectContains": "Total target"
     },
-    "totalsList": {
-      "type": "array",
-      "selectorAll": "#spanShiftStatus",
-      "items": {
-        "type": "object",
-        "properties": {
-          "totalTarget": {
-            "type": "string",
-            "selector": "span",
-            "control": "property.innerText"
-          },
-          "totalAct": {
-            "type": "string",
-            "selector": "span",
-            "control": "property.innerText",
-            "selectIndex": 1
-          }
-        }
-      }
+    "totalTarget": {
+      "type": "string",
+      "selector": "#spanShiftStatus span",
+      "control": "property.innerText"
     }
   },
   "connect": []
