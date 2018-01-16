@@ -1,13 +1,14 @@
 {
   "id": "app",
   "name": "iloadonboard",
-  "startScreen": "app.blank",
+  "startScreen": "app.dashboard",
   "screens": [
     {
-      "id": "blank",
-      "name": "BLANK",
+      "id": "dashboard",
+      "name": "dashboard",
       "sourceAppId": "_blank",
-      "sourceScreenId": "app.blank"
+      "sourceScreenId": "app.blank",
+      "model": "dashboard"
     },
     {
       "id": "menu",
