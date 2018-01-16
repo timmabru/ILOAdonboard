@@ -22,7 +22,10 @@
         }
       },
       "targetHour": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "quantityHour": {
         "type": "string"

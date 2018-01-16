@@ -1,6 +1,8 @@
 {
  "isDashboard": true,
  "totalTarget": "399",
- "totalAct": "131",
- "AvrSpeed": "77.51%"
+ "totalAct": "134",
+ "AvrSpeed": "76.14%",
+ "targetHour": "16",
+ "quantityHour": "11"
 }
