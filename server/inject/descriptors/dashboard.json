@@ -1,5 +1,12 @@
 {
   "type": "object",
-  "properties": {},
+  "properties": {
+    "isDashboard": {
+      "type": "identifier",
+      "selector": "#spanShiftStatus",
+      "control": "property.innerText",
+      "selectContains": "Total target"
+    }
+  },
   "connect": []
 }
