@@ -3,9 +3,23 @@
   "properties": {
     "isDashboard": {
       "type": "identifier",
-      "selector": "#spanShiftStatus",
-      "control": "exists",
+      "selector": "#spanShiftStatus span",
+      "control": "property.innerText",
       "selectContains": "Total target"
+    },
+    "totalsList": {
+      "type": "array",
+      "selectorAll": "#spanShiftStatus",
+      "items": {
+        "type": "object",
+        "properties": {
+          "totalTarget": {
+            "type": "string",
+            "selector": "span",
+            "control": "property.innerText"
+          }
+        }
+      }
     }
   },
   "connect": []
