@@ -10,10 +10,16 @@
         }
       },
       "totalAct": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "AvrSpeed": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       }
     }
   }
