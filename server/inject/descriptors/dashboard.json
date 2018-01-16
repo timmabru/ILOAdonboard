@@ -28,6 +28,11 @@
       "type": "string",
       "selector": "#spanTarget",
       "control": "property.innerText"
+    },
+    "quantityHour": {
+      "type": "string",
+      "selector": "#spanActual",
+      "control": "property.innerText"
     }
   },
   "connect": [
