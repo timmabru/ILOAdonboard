@@ -4,7 +4,7 @@
     "isDashboard": {
       "type": "identifier",
       "selector": "#spanShiftStatus",
-      "control": "property.innerText",
+      "control": "exists",
       "selectContains": "Total target"
     },
     "totalTarget": {
