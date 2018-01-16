@@ -2,6 +2,16 @@
   "dashboard": {
     "type": "object",
     "comment": "ILO Dashboard",
-    "properties": {}
+    "properties": {
+      "totalTarget": {
+        "type": "string"
+      },
+      "totalAct": {
+        "type": "string"
+      },
+      "AvrSpeed": {
+        "type": "string"
+      }
+    }
   }
 }

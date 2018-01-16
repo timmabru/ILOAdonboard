@@ -25,5 +25,14 @@
       "selectIndex": 2
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isDashboard"
+      ],
+      "screens": [
+        "dashboard"
+      ]
+    }
+  ]
 }
