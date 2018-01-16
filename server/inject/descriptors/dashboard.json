@@ -17,6 +17,12 @@
             "type": "string",
             "selector": "span",
             "control": "property.innerText"
+          },
+          "totalAct": {
+            "type": "string",
+            "selector": "span",
+            "control": "property.innerText",
+            "selectIndex": 1
           }
         }
       }
