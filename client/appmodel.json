@@ -1,1 +1,7 @@
-{}
+{
+  "dashboard": {
+    "type": "object",
+    "comment": "ILO Dashboard",
+    "properties": {}
+  }
+}
