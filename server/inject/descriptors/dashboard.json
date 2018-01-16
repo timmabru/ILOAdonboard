@@ -23,6 +23,11 @@
       "selector": "#spanShiftStatus span",
       "control": "property.innerText",
       "selectIndex": 2
+    },
+    "targetHour": {
+      "type": "string",
+      "selector": "#spanTarget",
+      "control": "property.innerText"
     }
   },
   "connect": [
