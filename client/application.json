@@ -4,5 +4,11 @@
   "defaultLayout": "phone-portrait",
   "previewToken": "be6b003b",
   "uiCommonVersion": "5.2.10",
-  "creatorId": "timmabru"
+  "creatorId": "timmabru",
+  "id": "iloadonboard",
+  "previewImageURL": "/previews/be6b003b-iloadonboard/app/dashboard.png",
+  "isVersioned": true,
+  "githubRepo": "https://github.com/timmabru/ILOAdonboard",
+  "creatorName": "Mihai Abrudan",
+  "sdks": []
 }
