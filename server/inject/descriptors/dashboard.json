@@ -38,6 +38,7 @@
   "connect": [
     {
       "match": [
+        "isDashboard",
         "isDashboard"
       ],
       "screens": [
